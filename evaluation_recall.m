@@ -1,0 +1,13 @@
+function recall = evaluation_recall(recallbits,tf,Xground)
+
+recall =zeros(size(recallbits,2),1);
+i=0;
+for k=recallbits
+    i=i+1;
+    recall(i,1)=sum(sum(tf(:,1:k),2))/(size(Xground,2)*size(tf,1));                   
+end
+
+
+
+
+

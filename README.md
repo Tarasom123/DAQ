@@ -1,4 +1,4 @@
-# DAQ
+# DAQ - Quick Start
 Run demoSH.m
 The dataset can be downloaded from the website and should be stored in exp_data.m.
 exp_data.m should contain base data, train data, test data and Xground.

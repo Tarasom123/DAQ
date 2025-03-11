@@ -52,9 +52,6 @@ The project requires a specific data file format. You need to prepare an `exp_da
 - `exp_data.m`: Data file containing base, train, test data, and ground truth neighbors.
 - Other supporting files for data processing and analysis.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
